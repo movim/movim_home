@@ -1,0 +1,290 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-top: 3rem;
+}
+
+a:link, a:visited {
+    color: #FF5722;
+    text-decoration: none;
+}
+
+quote {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #555;
+    text-align: center;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-style: italic;
+    clear: both;
+}
+
+p.center {
+    text-align: center;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+nav {
+    border-bottom: 1px solid #DDD;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex .block {
+    flex: 1 20%;
+    text-align: center;
+    margin: 0.5rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}
+
+.flex .block i {
+    color: gray;
+    padding: 1rem;
+    line-height: 4rem;
+    font-size: 4rem;
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.flex .block p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.flex .block a {
+    line-height: 2.5rem;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li.oppose {
+    float: right;
+}
+
+nav ul li a {
+    padding: 1.5rem;
+    line-height: 3rem;
+}
+
+nav ul li a i {
+    margin-right: 1rem;
+}
+
+nav ul,
+main > section,
+footer > section,
+header > * {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+main header {
+    background-image: url(../img/stars.jpg);
+    background-attachment: fixed;
+    height: 600px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+    margin: 3rem 0;
+}
+
+main header img {
+    position: absolute;
+    left: 50%;
+    margin-top: 6rem;
+    max-width: 100%;
+}
+
+main header.oppose > * {
+    text-align: right;
+}
+
+main header > span.reference {
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+    text-shadow: 0 0 0.2rem #000, 0 0 1.5rem #000, 0 0 3rem #000;
+}
+
+main header h1,
+main header h2,
+main header p {
+    font-weight: 300;
+    color: white;
+    text-shadow: 0 0 0.2rem #000, 0 0 1.5rem #000, 0 0 3rem #000;
+}
+
+main header h1 {
+    padding-top: 21rem;
+    font-size: 3.5rem;
+    line-height: 6rem;
+}
+
+main header h2 {
+    font-size: 1.75rem;
+}
+
+section {
+    clear: both;
+    padding-bottom: 1rem;
+}
+
+section h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    color: #555;
+}
+
+section h2 {
+    clear: both;
+    font-weight: 300;
+    font-size: 1.75rem;
+    color: #777;
+    text-align: center;
+}
+
+section h2 i {
+    margin-right: 1rem;
+}
+
+section p {
+    color: #333;
+    font-size: 1.25rem;
+    /*max-width: 60%;*/
+}
+
+section img {
+    max-width: 400px;
+    margin: 0 4rem;
+}
+
+section.oppose img {
+    float: right;
+}
+
+section.large img {
+    float: none;
+    margin: 0 auto;
+    max-width: initial;
+}
+
+img.cover {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+img.cover.hover {
+    margin-top: -10rem;
+}
+
+section a:not(.simple) {
+    margin-left: -0.5rem;
+}
+
+section a:not(.simple):before {
+    content: ">";
+    margin-right: 0.5rem;
+}
+
+section dl {
+    width: 50%;
+}
+
+section dt,
+section dd {
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+section dd i {
+    margin-right: 1rem;
+    width: 1rem;
+    text-align: center;
+}
+
+section dt img,
+section dd img {
+    margin: 0;
+    max-height: 1rem;
+    display: inline-block;
+    float: none;
+    margin-top: 0.4rem;
+}
+
+section dt {
+    float: left;
+    clear: left;
+    width: 35%;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+
+section dd {
+    color: #333;
+    float: right;
+    clear: none;
+    width: 60%;
+}
+
+footer {
+    background-color: #323940;
+    min-height: 10rem;
+}
+
+footer img.rounded {
+    border-radius: 1rem;
+}
+
+footer section p {
+    color: white;
+}
+
+/* Color */
+
+.bubble.color       , .icon.color          { color: white; background-color: #607D8B; border-color: #607D8B }
+span.icon.status.dnd:after,
+.bubble.color.red   , .icon.color.red      { color: white; background-color: #F44336; border-color: #F44336 }
+span.icon.status.xa:after,
+.bubble.color.purple, .icon.color.purple   { color: white; background-color: #9C27B0; border-color: #9C27B0 }
+.bubble.color.indigo, .icon.color.indigo   { color: white; background-color: #3F51B5; border-color: #3F51B5 }
+.bubble.color.blue  , .icon.color.blue     { color: white; background-color: #2196F3; border-color: #2196F3 }
+span.icon.status.chat:after,
+span.icon.status.online:after,
+.bubble.color.green , .icon.color.green    { color: white; background-color: #689F38; border-color: #689F38 }
+.bubble.color.orange, .icon.color.orange   { color: white; background-color: #FF9800; border-color: #FF9800 }
+span.icon.status.away:after,
+.bubble.color.yellow, .icon.color.yellow   { color: white; background-color: #FDD835; border-color: #FDD835 }
+.bubble.color.brown , .icon.color.brown    { color: white; background-color: #795548; border-color: #795548 }
+.bubble.color.gray  , .icon.color.gray     { color: white; background-color: #9E9E9E; border-color: #9E9E9E }
+.bubble.color.black , .icon.color.black    { color: white; background-color: #000;    border-color: #000 }
