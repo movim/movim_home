@@ -264,6 +264,10 @@ footer {
 
 footer img.rounded {
     border-radius: 1rem;
+    display: inline-block;
+    max-height: 8rem;
+    margin: 0.5rem;
+    vertical-align: middle;
 }
 
 footer section p {
