@@ -129,7 +129,7 @@ main header.oppose > * {
 main header > span.reference {
     color: white;
     position: absolute;
-    bottom: 1rem;
+    top: 1rem;
     right: 1rem;
     text-align: right;
     text-shadow: 0 0 0.2rem #000, 0 0 1.5rem #000, 0 0 3rem #000;
