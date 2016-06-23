@@ -4,6 +4,10 @@ body {
     margin-top: 3rem;
 }
 
+main > * > * {
+    padding: 0 1rem;
+}
+
 a:link, a:visited {
     color: #FF5722;
     text-decoration: none;
@@ -118,8 +122,8 @@ main header {
 main header img {
     position: absolute;
     left: 50%;
-    margin-top: 6rem;
     max-width: 100%;
+    bottom: 0;
 }
 
 main header.oppose > * {
@@ -201,6 +205,7 @@ img.cover {
     position: relative;
     display: block;
     margin: 0 auto;
+    max-width: calc(100% - 2rem);
 }
 
 img.cover.hover {
