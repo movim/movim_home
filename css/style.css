@@ -44,6 +44,19 @@ nav {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+@media screen and (max-width: 1024px) {
+    nav {
+        position: relative;
+        display: block;
+    }
+
+    nav:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+}
+
 .flex {
     display: flex;
     flex-flow: row wrap;
@@ -55,6 +68,12 @@ nav {
     margin: 0.5rem;
     padding-bottom: 2rem;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .flex .block {
+        flex: 1 100%;
+    }
 }
 
 .flex .block i {
@@ -108,12 +127,12 @@ header > * {
 }
 
 main header {
-    background-image: url(../img/stars.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url(../img/comet_lovejoy.jpg);
     background-attachment: fixed;
     height: 600px;
     box-sizing: border-box;
     background-size: cover;
-    background-position: center center;
+    background-position: bottom center;
     overflow: hidden;
     position: relative;
     margin: 3rem 0;
@@ -151,6 +170,18 @@ main header h1 {
     padding-top: 21rem;
     font-size: 3.5rem;
     line-height: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+    main header {
+        height: 400px;
+    }
+
+    main header h1 {
+        padding-top: 10rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
 }
 
 main header h2 {
@@ -191,6 +222,12 @@ section img {
     margin: 0 4rem;
 }
 
+@media screen and (max-width: 1024px) {
+    section img {
+        margin: 0;
+    }
+}
+
 section.oppose img {
     float: right;
 }
@@ -222,44 +259,7 @@ section a:not(.simple):before {
 }
 
 section dl {
-    width: 50%;
-}
-
-section dt,
-section dd {
-    font-size: 1.25rem;
-    margin: 0;
-    margin-bottom: 1rem;
-}
-
-section dd i {
-    margin-right: 1rem;
-    width: 1rem;
-    text-align: center;
-}
-
-section dt img,
-section dd img {
-    margin: 0;
-    max-height: 1rem;
-    display: inline-block;
-    float: none;
-    margin-top: 0.4rem;
-}
-
-section dt {
-    float: left;
-    clear: left;
-    width: 35%;
-    padding-right: 2rem;
-    box-sizing: border-box;
-}
-
-section dd {
-    color: #333;
-    float: right;
-    clear: none;
-    width: 60%;
+    width: 45%;
 }
 
 footer {
