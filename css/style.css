@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    margin-top: 3rem;
 }
 
 main > * > * {
@@ -36,12 +35,11 @@ p.center {
 }
 
 nav {
-    border-bottom: 1px solid #DDD;
     position: fixed;
     top: 0;
     z-index: 2;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 1024px) {
@@ -126,6 +124,8 @@ header > * {
     margin: 0 auto;
 }
 
+/* Headers */
+
 main header {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url(../img/comet_lovejoy.jpg);
     background-attachment: fixed;
@@ -172,9 +172,17 @@ main header h1 {
     line-height: 6rem;
 }
 
+main header h2 {
+    font-size: 1.75rem;
+}
+
 @media screen and (max-width: 1024px) {
     main header {
         height: 400px;
+    }
+
+    main header:first-child {
+        margin-top: 0;
     }
 
     main header h1 {
@@ -182,11 +190,17 @@ main header h1 {
         font-size: 2.5rem;
         line-height: 3rem;
     }
+
+    main header h2 {
+        font-size: 1.25rem;
+    }
+
+    main header img {
+        display: none;
+    }
 }
 
-main header h2 {
-    font-size: 1.75rem;
-}
+/* Section */
 
 section {
     clear: both;
