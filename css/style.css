@@ -263,6 +263,10 @@ img.cover.hover {
     margin-top: -10rem;
 }
 
+img.cover.hover2 {
+    margin-top: -20rem;
+}
+
 section a:not(.simple) {
     margin-left: -0.5rem;
 }
