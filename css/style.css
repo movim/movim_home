@@ -252,18 +252,18 @@ section.large img {
     max-width: initial;
 }
 
-img.cover {
+.cover {
     position: relative;
     display: block;
     margin: 0 auto;
     max-width: calc(100% - 2rem);
 }
 
-img.cover.hover {
+.cover.hover {
     margin-top: -10rem;
 }
 
-img.cover.hover2 {
+.cover.hover2 {
     margin-top: -20rem;
 }
 
