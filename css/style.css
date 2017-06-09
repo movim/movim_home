@@ -138,7 +138,7 @@ main header {
     height: 500px;
     box-sizing: border-box;
     background-size: cover;
-    background-position: bottom center;
+    background-position: center;
     overflow: hidden;
     position: relative;
     margin: 4rem 0;
