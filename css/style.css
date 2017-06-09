@@ -12,6 +12,11 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+a:link:hover, a:visited:hover {
+    text-decoration: underline;
+}
+
+
 quote {
     font-weight: 300;
     font-size: 1.5rem;
@@ -39,7 +44,7 @@ nav {
     top: 0;
     z-index: 2;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -109,7 +114,7 @@ nav ul li.oppose {
 
 nav ul li a {
     padding: 1.5rem 1rem;
-    line-height: 3rem;
+    line-height: 4rem;
 }
 
 nav ul li a i {
@@ -127,15 +132,16 @@ header > * {
 /* Headers */
 
 main header {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url(../img/comet_brammer.jpg);
+    background: /*linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%),*/ url(../img/artem-kovalev-125912_small.jpg);
+    background-color: gray;
     background-attachment: fixed;
-    height: 600px;
+    height: 500px;
     box-sizing: border-box;
     background-size: cover;
     background-position: bottom center;
     overflow: hidden;
     position: relative;
-    margin: 3rem 0;
+    margin: 4rem 0;
 }
 
 main header img {
@@ -155,7 +161,7 @@ main header > span.reference {
     top: 1rem;
     right: 1rem;
     text-align: right;
-    text-shadow: 0 0 0.2rem #000, 0 0 1.5rem #000, 0 0 3rem #000;
+    text-shadow: 0 0 1.5rem #000;
 }
 
 main header h1,
@@ -163,11 +169,11 @@ main header h2,
 main header p {
     font-weight: 300;
     color: white;
-    text-shadow: 0 0 0.2rem #000, 0 0 1.5rem #000, 0 0 3rem #000;
+    text-shadow: 0 0 1.5rem #000;
 }
 
 main header h1 {
-    padding-top: 21rem;
+    padding-top: 13rem;
     font-size: 3.5rem;
     line-height: 6rem;
 }
@@ -264,17 +270,17 @@ section.large img {
 }
 
 .cover.hover2 {
-    margin-top: -20rem;
+    margin-top: -15rem;
 }
 
 section a:not(.simple) {
     margin-left: -0.5rem;
 }
 
-section a:not(.simple):before {
+/*section a:not(.simple):before {
     content: ">";
     margin-right: 0.5rem;
-}
+}*/
 
 section dl {
     width: 45%;
