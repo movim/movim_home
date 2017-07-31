@@ -292,7 +292,7 @@ footer {
 }
 
 footer img.rounded {
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     display: inline-block;
     max-height: 8rem;
     margin: 0.5rem;
