@@ -113,12 +113,12 @@ nav ul li.oppose {
 }
 
 nav ul li a {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0.75rem;
     line-height: 4rem;
 }
 
 nav ul li a i {
-    margin-right: 1rem;
+    margin-right: 0.75rem;
 }
 
 nav ul,
