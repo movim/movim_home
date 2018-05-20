@@ -132,7 +132,7 @@ header > * {
 /* Headers */
 
 main header {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 100%), url(../img/cynthia-magana-138943.jpeg);
+    background: /*linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 100%), */url(../img/artem-kovalev-125912_small.jpg);
     background-color: gray;
     background-attachment: fixed;
     height: 500px;
@@ -169,11 +169,11 @@ main header h2,
 main header p {
     font-weight: 300;
     color: white;
-    text-shadow: 0 0 1.5rem #000;
+    text-shadow: 0 0 5rem #000, 0 0 1.5rem #000;
 }
 
 main header h1 {
-    padding-top: 11rem;
+    padding-top: 10rem;
     font-size: 3.5rem;
     line-height: 6rem;
 }
