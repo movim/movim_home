@@ -146,6 +146,11 @@ div.half {
     border: 1px solid #e9f0f3;
 }
 
+.mobile:before,
+.mobile:after {
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 rgba(0,0,0,.05),inset 0 0 0 1px rgba(0,0,0,.01),0 1px 0 #fff;
+}
+
 .mobile:before {
     display: block;
     content: '';
@@ -154,7 +159,6 @@ div.half {
     background: linear-gradient(180deg,#bdcad1 0,#dee5e8);
     border-radius: 5px;
     margin: 1.2rem;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 rgba(0,0,0,.05),inset 0 0 0 1px rgba(0,0,0,.01),0 1px 0 #fff;
 }
 
 .mobile:after {
@@ -165,7 +169,6 @@ div.half {
     height: 25px;
     background: linear-gradient(180deg,#e1e7ea 0,#f9fafb);
     border-radius: 100%;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 rgba(0,0,0,.05),inset 0 0 0 1px rgba(0,0,0,.01),0 1px 0 #fff;
 }
 
 .desktop {
@@ -186,6 +189,7 @@ div.half {
     box-shadow: inset 0 -1px 0 #e7e8ea,inset 0 1px 0 hsla(0,0%,100%,.26);
 }
 
+.mobile.dark,
 .desktop.dark:before {
     background: #1e1f20;
     box-shadow: inset 0 1px 0 hsla(0,0%,100%,.3);
@@ -215,10 +219,21 @@ div.half {
     margin-left: 8px;
 }
 
+.mobile.dark:before,
+.mobile.dark:after,
 .desktop.dark .buttons:before,
 .desktop.dark .buttons:after {
     border: 0;
     background: black;
+}
+
+.mobile.dark div.screen {
+    border: 1px solid #303030;
+}
+
+.mobile.dark:before,
+.mobile.dark:after {
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 rgba(0,0,0,.05),inset 0 0 0 1px rgba(0,0,0,.01),0 1px 0 #303030;
 }
 
 .desktop .buttons:after {
@@ -257,10 +272,12 @@ div.half {
     font-size: 2rem;
     position:absolute;
     padding: 0 0.5rem;
+    width: 2rem;
+    text-align: center;
 }
 
-.flex.orange .block i {
-    color: rgba(255, 87, 34, 255);
+.flex.blue .block i {
+    color: #003441;
 }
 
 .flex.gray .block i {
