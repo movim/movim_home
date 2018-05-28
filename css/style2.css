@@ -240,6 +240,21 @@ div.half {
     margin-left: 6px;
 }
 
+@media screen and (max-width: 600px) {
+    .mobile,
+    .desktop {
+        display: none;
+    }
+
+    div.half {
+        width: 100%;
+    }
+
+    iframe {
+        display: none;
+    }
+}
+
 /* blocks */
 
 .flex {
@@ -261,7 +276,8 @@ div.half {
 }
 
 @media screen and (max-width: 1024px) {
-    .flex .block {
+    .flex .block,
+    .flex.two .block  {
         flex: 1 100%;
     }
 }
