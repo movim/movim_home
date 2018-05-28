@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    color: #FF5722;
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 8px;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+section.dark {
+    background-color: #343f44;
+}
+
+header, section {
+    padding: 3rem 4vw;
+}
+
+header {
+    background: radial-gradient(circle farthest-corner at right bottom,#3F51B5 0,#222e75 100%);
+    margin-top: -3rem;
+}
+
+nav, div.inner {
+    margin: 0 auto;
+    max-width: 1030px;
+    width: 100%;
+}
+
+div.inner {
+    position: relative;
+}
+
+header div.inner {
+    margin: 6rem auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 3rem;
+    padding: 0 1rem;
+    font-size: 1.35rem;
+}
+
+nav {
+    margin: 2rem auto;
+}
+
+nav ul li.oppose {
+    float: right;
+    font-size: 1.75rem;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    font-size: 2rem;
+}
+
+nav img {
+    height: 3rem;
+    margin-bottom: -0.75rem;
+    margin-right: 0.5rem;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    opacity: 0.7;
+    padding-bottom: 3rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    padding: 1rem 0;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    color: #888;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p {
+    color: white;
+}
+
+div.half {
+    width: 45%;
+}
+
+/* Devices inspired by https://ghost.org/fr/features/ */
+
+.mobile,
+.desktop {
+    position: absolute;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8px;
+    width: 210px;
+    background: radial-gradient(circle farthest-corner at right bottom,#e7ecee 0,#f5f7f8 100%);
+    border-radius: 19px;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.5),0 0 1px rgba(0,0,0,.2),0 2px 4px rgba(0,0,0,.15);
+}
+
+.mobile div.screen {
+    border: 1px solid #e9f0f3;
+}
+
+.mobile:before {
+    display: block;
+    content: '';
+    width: 30px;
+    height: 5px;
+    background: linear-gradient(180deg,#bdcad1 0,#dee5e8);
+    border-radius: 5px;
+    margin: 1.2rem;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 rgba(0,0,0,.05),inset 0 0 0 1px rgba(0,0,0,.01),0 1px 0 #fff;
+}
+
+.mobile:after {
+    display: block;
+    content: '';
+    margin: 7px 0 9px;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(180deg,#e1e7ea 0,#f9fafb);
+    border-radius: 100%;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 rgba(0,0,0,.05),inset 0 0 0 1px rgba(0,0,0,.01),0 1px 0 #fff;
+}
+
+.desktop {
+    width: 900px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 1px rgba(0,0,0,.35),0 2px 4px rgba(0,0,0,.15);
+    overflow: hidden;
+}
+
+.desktop:before {
+    content: '';
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    height: 24px;
+    background: #f5f7f8;
+    box-shadow: inset 0 -1px 0 #e7e8ea,inset 0 1px 0 hsla(0,0%,100%,.26);
+}
+
+.desktop.dark:before {
+    background: #1e1f20;
+    box-shadow: inset 0 1px 0 hsla(0,0%,100%,.3);
+}
+
+.desktop .buttons {
+    position: absolute;
+}
+
+.desktop div.screen img,
+.mobile div.screen img {
+    max-width: 100%;
+    display: block;
+}
+
+.desktop .buttons:before,
+.desktop .buttons:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 1px solid #d1dfe6;
+    background: rgba(0,0,0,.03);
+    border-radius: 6px;
+    display: inline-block;
+    position: relative;
+    top: -16px;
+    margin-left: 8px;
+}
+
+.desktop.dark .buttons:before,
+.desktop.dark .buttons:after {
+    border: 0;
+    background: black;
+}
+
+.desktop .buttons:after {
+    margin-left: 6px;
+}
+
+/* blocks */
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    clear: both;
+}
+
+.flex .block {
+    flex: 1 25%;
+    padding-bottom: 2rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+.flex.two .block {
+    flex: 1 50%;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .flex .block {
+        flex: 1 100%;
+    }
+}
+
+.flex .block i {
+    color: #98c22e;
+    line-height: 4rem;
+    font-size: 2rem;
+    position:absolute;
+    padding: 0 0.5rem;
+}
+
+.flex.orange .block i {
+    color: rgba(255, 87, 34, 255);
+}
+
+.flex.gray .block i {
+    color: gray;
+}
+
+.dark .flex .block i {
+    color: white;
+}
+
+.flex .block > p,
+.flex .block > a,
+.flex .block > h2 {
+    font-size: 1.05rem;
+    padding-left: 3.5rem;
+}
+
+.flex .block h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0;
+}
+
+.flex .block a  {
+    line-height: 1.8rem;
+}
+

@@ -9,236 +9,98 @@
         <link rel="icon" type="image/png" href="img/48.png" sizes="48x48">
         <link rel="icon" type="image/png" href="img/96.png" sizes="96x96">
         <link rel="icon" type="image/png" href="img/128.png" sizes="128x128">
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style2.css" />
         <link rel="stylesheet" href="css/fonts.css" type="text/css" />
         <link rel="stylesheet" href="css/material-design-iconic-font.min.css" type="text/css" />
 
-	<meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://movim.eu/">
-                        <img src="img/logo_black_simple.png" style="margin-bottom: -0.25rem;">
+        <header class="dark">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://movim.eu/">
+                            <img src="img/vectorial.svg">
+                            Movim
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#try">
+                            Try It
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://nl.movim.eu/?node/pubsub.movim.eu/Movim">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="oppose">
+                        <a target="_blank" href="https://github.com/movim/movim">
+                            <i class="zmdi zmdi-github"></i>
+                        </a>
+                    </li>
+                    <li class="oppose">
+                        <a target="_blank" href="https://twitter.com/MovimNetWork/">
+                            <i class="zmdi zmdi-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="oppose">
+                        <a target="_blank" href="https://nl.movim.eu/?login/Y95Ce5w2">
+                            <i class="zmdi zmdi-comments"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="inner">
+                <h1>The social platform shaped for your community</h1>
+                <h3>…and that federates will the others</h3>
+            </div>
+        </header>
+        <section style="margin-bottom: 2rem;">
+            <div class="inner">
+                <div class="desktop dark" style="top: -5rem; left: calc(50% + 2rem);">
+                    <div class="buttons"></div>
+                    <div class="screen">
+                        <img src="img/community.png">
+                    </div>
+                </div>
+                <div class="mobile" style="top: 10.5rem; left: calc(50% - 1rem);">
+                    <div class="screen">
+                        <img src="img/chat2.png">
+                    </div>
+                </div>
+                <div class="half">
+                    <h2>All your communications,<br /> in one place</h2>
+                    <p>Chatrooms, articles, video-conferences; Movim centralize all you need to communicate with your colleages, friends or family in one simple interface.</p>
+                    <p>It also fully adapt to all your devices from your smartphone to your desktop computer.</p>
+
+                    <h2>Connect with the others</h2>
+                    <p>Movim relies on the <a href="https://xmpp.org/">XMPP standard</a> and therefore allows you to exchange with many other clients on all the devices such as <a href="https://conversations.im/">Conversations (Android)</a> or <a href="https://dino.im/">Dino (Desktop)</a>.</p>
+
+                    <p>You can easily access and explore the content of all the network and connect with all the other Movim users instantly.</p>
+                    <a href="https://f-droid.org/packages/com.movim.movim/">
+                        <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="60">
                     </a>
-                </li>
-                <!--<li><i class="zmdi zmdi-cloud-outline"></i> Movim</a></li>-->
-                <li><a href="#get_it"><i class="zmdi zmdi-globe-alt"></i>Try It</a></li>
-                <li><a href="#apps"><i class="zmdi zmdi-download"></i>Download</a></li>
-                <li><a href="#features"><i class="zmdi zmdi-eye"></i>Features</a></li>
-                <!--<li class="oppose"><a target="_blank" href="https://github.com/movim/movim/wiki/"><i class="zmdi zmdi-wikipedia"></i> Wiki</a></li>-->
-                <li class="oppose"><a target="_blank" href="https://github.com/movim/movim"><i class="zmdi zmdi-github"></i>Github</a></li>
-                <li class="oppose"><a target="_blank" href="https://twitter.com/MovimNetWork/"><i class="zmdi zmdi-twitter"></i>Twitter</a></li>
-                <li class="oppose"><a target="_blank" href="https://nl.movim.eu/?login/Y95Ce5w2"><i class="zmdi zmdi-accounts"></i>Chatroom</a></li>
-                <li class="oppose"><a target="_blank" href="https://nl.movim.eu/?node/pubsub.movim.eu/Movim"><i class="zmdi zmdi-edit"></i>Blog</a></li>
-            </ul>
-        </nav>
-        <main>
-            <!--
-            <header>
-                <img src="img/main_top.png">
-                <h1>Movim</h1>
-                <h2>When social network meets IM,<br /> you can expect some surprises…</h2>
-                <span class="reference">
-                    <a href="https://commons.wikimedia.org/wiki/File:Brammer_comets-1.jpg">Brammer Comet</a>
-                    by
-                    ESO under CC BY 4.0
-                </span>
-            </header>
--->
-            <header>
-                <!--<img src="img/main_top.png">-->
-                <h1>Meet Movim</h1>
-                <h2  id="get_it">Simple, light and respectful. <br />
-                    The social platform shaped<br /> for your community.
-                </h2>
-                <span class="reference">
-                    photo by <a href="https://unsplash.com/@artemkovalev?photo=fk3XUcfTAvk">Artem Kovalev</a>
-                </span>
-            </header>
-
-            <section class="oppose">
-                <!--<img src="img/devices.svg">-->
-                <!--<p class="center">
-                    Movim is designed to fit all screens and resolutions.
-                </p>-->
-
-                        <h2><a target="_blank"  href="http://api.movim.eu/accounts/register">Create an account…</a></h2>
-
-                <p class="center">
-                    …and check it out on one of the Movim pods we are already hosting.
-                </p>
-
-                <div class="flex">
-
-                    <div class="block">
-                        <h2><a target="_blank" href="https://nl.movim.eu/">nl.movim.eu</a></h2>
-                        <p>The Netherlands</p>
-                    </div>
-                    <div class="block">
-                        <h2><a target="_blank" href="https://fr.movim.eu/">fr.movim.eu</a></h2>
-                        <p>France</p>
-                    </div>
-                    <div class="block">
-                        <h2><a target="_blank" href="https://de.movim.eu/">de.movim.eu</a></h2>
-                        <p>Germany</p>
-                    </div>
-                    <div class="block">
-                        <h2><a target="_blank" href="https://movim.se/">movim.se</a></h2>
-                        <p>Sweden</p>
-                    </div>
-                    <div class="block">
-                        <h2><a target="_blank" href="https://movim.feder8.ru/">movim.feder8.ru</a></h2>
-                        <p>Russia</p>
-                    </div>
-                    <div class="block">
-                        <h2><a target="_blank" href="https://jp.mov.im/">jp.mov.im</a></h2>
-                        <p>Japan</p>
-                    </div>
+                    <a href="https://play.google.com/store/apps/details?id=com.movim.movim">
+                        <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="60">
+                    </a>
                 </div>
-            </section>
+            </div>
+        </section>
+        <section class="dark" style="background: radial-gradient(circle farthest-corner at right bottom,#003441 0,#1a465d 100%);">
+            <div class="inner">
+                <iframe class="cover hover2" src="https://www.youtube.com/embed/vMl5peDiBIY" allowfullscreen="" width="50%" height="350px" frameborder="0" style="float: right; margin-top: 1rem;"></iframe>
+                <div class="half">
+                    <h1>News & Communities</h1>
+                    <h3>Share, format and publish… in real time</h3>
+                    <p>Movim simplifies the management of your news and your publications. So forget the ads, forget the superfluous. We designed an interface that really focuses on your content.</p>
 
-            <header  id="apps" style="background-image: url(img/avi-richards-183715_small.jpg);">
-                <!--<h1>Chatting, sharing… and much more</h1>
-                <h2>Let's discover our main features</h2>-->
-                <img src="img/chat.png" style="width: 22rem; left: calc(50% + 15rem); margin-bottom: -17.5rem;"/>
-                <h1>Get Movim on your device</h1>
-                <h2>Get our apps for your mobile devices or desktop</h2>
-                <span class="reference">
-                    photo by <a href="https://unsplash.com/photos/Z3ownETsdNQ">by Avi Richards</a>
-                </span>
-            </header>
-
-            <section>
-                <div class="flex">
-                    <!--<div class="block">
-                        <i class="zmdi zmdi-windows bubble color blue"></i>
-                        <h2>Windows</h2>
-                        <p>
-                            <a target="_blank" href="https://apt.movim.eu/movim-desktop-0.11.0.exe">Movim Desktop<br /> for Windows 7 or above</a>
-                        </p>
-                    </div>-->
-                    <div class="block">
-                        <i class="zmdi zmdi-android bubble color green"></i>
-                        <h2>Android</h2>
-                        <p>
-                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.movim.movim">Play Store</a><br />
-                            <a target="_blank" href="https://f-droid.org/packages/com.movim.movim/">F-Droid</a>
-                        </p>
-                    </div>
-                    <!--<div class="block">
-                        <i class="zmdi zmdi-apple bubble color purple"></i>
-                        <h2>macOS</h2>
-                        <p>
-                            <a target="_blank" href="https://apt.movim.eu/movim-desktop-0.11.0.dmg">Movim Desktop<br /> for macOS</a>
-                        </p>
-                    </div>-->
-                    <div class="block">
-                        <i class="zmdi zmdi-archive bubble color orange"></i>
-                        <h2>Linux</h2>
-                        <p>
-                        <a target="_blank" href="https://apt.movim.eu/">APT Repository</a><br />
-                        <a target="_blank" href="https://apt.movim.eu/debian/pool/main/m/movim-desktop/">DEB package</a><br />
-                        <a target="_blank" href="http://apt.movim.eu/movim-desktop-0.12.0-2.x86_64.rpm">RPM package</a>
-                        </p>
-                    </div>
+                    <p>In the Communities you can publish and subscribe to various nodes on different topics.
+                    Just click on the Communities link in your menu and start exploring!</p>
                 </div>
-            </section>
 
-            <header id="features" style="background-image: url(img/friends.jpg);">
-                <h1 style="padding-top: 10rem;">Chat & Chatrooms</h1>
-                <h2>Chatting has never been easier</h2>
-                <span class="reference">
-                    <a href="https://www.flickr.com/photos/afsusa/8571247015/in/photostream/">IMG_1505</a>
-                    by
-                    <a href="https://www.flickr.com/photos/afsusa/">AFS-USA</a> under CC BY 2.0
-               </span>
-            </header>
-
-            <img src="img/chat_blocks.png" class="cover hover2">
-
-            <section class="large">
-                <!--<quote>Chatting has never been easier</quote>-->
-
-                <p class="center">
-                    Start a conversation with a friend<br /> or join a multi-user chatroom in one click.
-                </p>
-                <p class="center">
-                    Movim is fully compatible with many chat clients on all the common devices.<br /> No matter what your contacts are using, you will always be able to chat with them. <br />
-                </p>
-
-                <div class="flex">
-                    <div class="block">
-                        <i class="zmdi zmdi-attachment-alt"></i>
-                        <p>
-                            In one click,<br />insert pictures and documents<br /> in your conversations.
-                        </p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-swap"></i>
-                        <p>
-                            Keep your conversations synchronised between all your devices, in real-time.
-                        </p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-time-restore"></i>
-                        <p>
-                            If you were offline for a while,<br/> Movim automatically refreshes your conversations history.
-                        </p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-edit"></i>
-                        <p>
-                            Oops, you made a mistake?<br/> Correct your previous message easily.
-                        </p>
-                    </div>
-                    <div class="block">
-                        <img src="img/sticker.png" style="height: 7rem; margin: -0.7rem 0;">
-                        <p>
-                            Want to send funny stickers?<br/> Share some with your friends in one click!
-                        </p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-check-all"></i>
-                        <p>
-                            Did they get your message?<br />Movim tells you if <br/>it has been delivered and read.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <header style="background-image: url(img/classroom.jpg); background-position: top center;">
-                <h1 style="padding-top: 8rem;">News & Communities</h1>
-                <h2>Share, format and publish</h2>
-                <span class="reference">
-                    photo by <a href="https://www.flickr.com/photos/zionfiction/14229163349/">r. nial bradshaw</a><br /> under CC BY 2.0
-                </span>
-            </header>
-
-            <!--<img src="img/news_blocks.png" class="cover hover2">-->
-            <iframe class="cover hover2" width="755" height="425" src="https://www.youtube.com/embed/vMl5peDiBIY" frameborder="0" allowfullscreen></iframe>
-
-
-            <section class="large">
-                <h2><i class="zmdi zmdi-receipt"></i> News</h2>
-
-                <p class="center">
-                    Movim simplifies the management of your news and your publications.<br />
-                    So forget the ads, forget the superfluous.<br />We designed an interface that really focuses on <b>your</b> content.<br />
-                </p>
-
-                <h2><i class="zmdi zmdi-group-work"></i> Communities</h2>
-
-                <p class="center">
-                    Communities allows
-                    you to publish and subscribe<br /> to various nodes on different topics.<br />
-                    Just click on the Communities link in your menu and start exploring!
-                </p>
-
-                <h2><i class="zmdi zmdi-edit"></i> Features</h2>
-
-                <div class="flex">
+                <div class="flex" style="margin-top: 5rem;">
                     <div class="block">
                         <i class="zmdi zmdi-collection-image"></i>
                         <p>
@@ -272,115 +134,111 @@
                         <p>Publish it later.<br /> Movim automatically save your post as a <b>draft</b> during the redaction.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section style="margin-bottom: 2rem;">
+            <div class="inner">
+                <h1>Chats & Chatrooms</h1>
+                <h3>Plenty of features for an awesome chat experience</h3>
+                <div class="desktop" style="top: 9rem; left: calc(50% + 4rem);">
+                    <div class="buttons"></div>
+                    <div class="screen">
+                        <img src="img/chatroom.png">
+                    </div>
+                </div>
+                <div class="mobile" style="top: 18rem; left: calc(50%);">
+                    <div class="screen">
+                        <img src="img/chats.png">
+                    </div>
+                </div>
+                <div class="half">
+                    <p> Start a conversation with a friend or join a multi-user chatroom in one click.</p>
 
-                <p class="center">And don't forget, every publication is shared in <b>real-time</b>.</p>
-            </section>
+                    <p>Movim chats are coming with many features to give you the best chat experience accross all your devices.</p>
 
+                    <div class="flex two orange" style="margin-top: 2rem;">
+                        <div class="block">
+                            <i class="zmdi zmdi-attachment-alt"></i>
+                            <p>
+                                Insert pictures and documents in your conversations.
+                            </p>
+                        </div>
+                        <div class="block">
+                            <i class="zmdi zmdi-swap"></i>
+                            <p>
+                                Keep your conversations synchronised between all your devices, in real-time.
+                            </p>
+                        </div>
+                        <div class="block">
+                            <i class="zmdi zmdi-time-restore"></i>
+                            <p>
+                                Movim automatically refreshes your conversations history.
+                            </p>
+                        </div>
+                        <div class="block">
+                            <i class="zmdi zmdi-edit"></i>
+                            <p>
+                                Oops, you made a mistake?<br/> Correct your previous message easily.
+                            </p>
+                        </div>
+                        <div class="block">
+                            <i class="zmdi zmdi-mood"></i>
+                            <p>
+                                Share funny stickers with your friends in one click!
+                            </p>
+                        </div>
+                        <div class="block">
+                            <i class="zmdi zmdi-check-all"></i>
+                            <p>
+                                Movim tells you if your message has been delivered and read.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dark">
+            <div class="inner">
+                <h1>Do more easily</h1>
+                <h3>Administrate, configure and discover</h3>
 
-            <header id="features" style="background-image: url(img/stars.jpg);">
-                <img src="img/tablet.png" style="width: 46rem; left: calc(50% + 6rem); margin-bottom: -5.5rem;"/>
-                <h1 style="padding-top: 14rem;">Do more easily…</h1>
-                <h2>Smart features for an incredible experience</h2>
-                  <span class="reference">
-                     <a href="https://www.flickr.com/photos/scott-s_photos/11763686274/">Cradle of Stars</a>
-                     by
-                     <a href="https://www.flickr.com/photos/scott-s_photos/">Scott Cresswell</a> under CC BY 2.0
-                 </span>
-            </header>
-
-            <section>
-                <div class="flex">
+                <div class="flex green">
                     <div class="block">
                         <i class="zmdi zmdi-search"></i>
-                        <p>Find posts and contacts <b>instantly</b><br /> with our global search feature <br />…or by pressing Ctrl + M!</p>
+                        <p>Find posts and contacts <b>instantly</b> with our global search feature.</p>
                     </div>
                     <div class="block">
                         <i class="zmdi zmdi-notifications-active"></i>
-                        <p>Be <b>notified</b> about<br /> likes and comments added to your publications.</p>
+                        <p>Be <b>notified</b> about likes and comments.</p>
                     </div>
                     <div class="block">
                         <i class="zmdi zmdi-sign-in"></i>
-                        <p><b>Invite</b> your contacts<br /> in your chatrooms in one click.</p>
+                        <p><b>Invite</b> your contacts in your chatrooms.</p>
                     </div>
                     <div class="block">
                         <i class="zmdi zmdi-brightness-2"></i>
-                        <p>Enable the <b>Night Mode</b><br /> to rest your eyes.</p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-favorite"></i>
-                        <p>A kickass client<br /> on top of <b>standard protocol</b>.<br /> Movim is your XMPP server best friend.</p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-settings"></i>
-                        <p><b>Manage</b> and <b>administrate</b><br /> your Communities and Chatrooms<br /> easily.</p>
+                        <p>Enable the <b>Night Mode</b> to rest your eyes.</p>
                     </div>
                     <div class="block">
                         <i class="zmdi zmdi-shield-security"></i>
-                        <p>As an administrator,<br /> <b>focus the suggestions</b><br /> to only propose the content aimed<br /> for  your school, company or community.</p>
+                        <p>As an administrator,<b>focus the suggestions</b> to only propose the content aimed for your community.</p>
                     </div>
                     <div class="block">
                         <i class="zmdi zmdi-alert-circle-o"></i>
-                        <p><b>Contact the administrators</b><br /> of the server to report something<br/> or ask a question.</p>
+                        <p><b>Contact easily the administrators</b> of the server to report something or ask a question.</p>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <quote>
-                    Designed to empower communities<br />
-                    Movim is perfect to handle all the communications of your team, association or classroom
-                </quote>
-            </section>
+        <section>
+            <div class="inner">
+                <h1>Our core goals</h1>
+                <h3>Administrate, configure and discover</h3>
 
-            <header style="background-image: url(img/unsplash.jpg);">
-                <h1 style="padding-top: 14rem;">It's time to see more…</h1>
-                <h2>Introducting Movim Hello<span style="font-size: 1.2rem; position: relative; top: -0.5rem; left: 0.2rem;">Beta</span></h2>
-                  <span class="reference">
-                     <a href="https://pixabay.com/fr/personnes-%C3%A0-pied-ville-urbaines-1031169/">Discover</a>
-                     by
-                     <a href="https://pixabay.com/fr/users/Unsplash-242387/">Unsplash</a> under CC0
-                 </span>
-            </header>
-
-            <section>
-                <div class="flex">
+                <div class="flex gray">
                     <div class="block">
-                        <i class="zmdi zmdi-phone"></i>
-                        <p>Call anyone that is using Movim…<br /> or another compatible client</p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-check"></i>
-                        <p>Nothing to install<br />nothing to configure</p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-camera"></i>
-                        <p>Using the best video-conferencing<br /> technologies available</p>
-                    </div>
-                </div>
-
-                <p class="center">Coming soon…</p>
-            </section>
-
-
-            <header style="background-image: url(img/crowd.jpg);">
-                <h1>Movim, a platform for everyone</h1>
-                <h2>Like you, and you, and you…</h2>
-                <span class="reference">
-                    <a href="https://www.flickr.com/photos/pierre-selim/7384449648/">Toulouse Gay Pride 2012</a>
-                    by
-                    <a href="https://www.flickr.com/photos/pierre-selim/">Pierre-Selim</a> under CC BY-SA 2.0
-                </span>
-            </header>
-
-            <section>
-                <quote>
-                    Easy to use, light and secure<br />
-                    Movim is the best tool to share with your community
-                </quote>
-
-                <h2>Our core goals</h2>
-
-                <div class="flex">
-                    <div class="block">
-                        <i class="zmdi zmdi-code bubble color indigo"></i>
+                        <i class="zmdi zmdi-code"></i>
                         <h2>Open Source</h2>
                         <p>
                             Movim's source code is completely open
@@ -390,14 +248,14 @@
                         </p>
                     </div>
                     <div class="block">
-                        <i class="zmdi zmdi-globe bubble color brown"></i>
+                        <i class="zmdi zmdi-globe"></i>
                         <h2>Decentralized</h2>
                         <p>
                             Movim is based on a fully decentralized and standard network. You can create your own account on the server of your choice.
                         </p>
                     </div>
                     <div class="block">
-                        <i class="zmdi zmdi-assignment-check bubble color red"></i>
+                        <i class="zmdi zmdi-assignment-check"></i>
                         <h2>Fully Standard</h2>
                         <p>
                             Our main motto? Don't reinvent the wheel. Since the beginning all the Movim communications are made using XMPP.<br />
@@ -405,85 +263,82 @@
                         </p>
                     </div>
                 </div>
+        </section>
+        <section style="border-top: 1px solid #e5eff5; border-bottom: 1px solid #e5eff5; background: #f8fafc;">
+            <div class="inner">
+                <h1 id="try">Try it now!</h1>
 
-                <div class="flex">
+                <h3>
+                    <a target="_blank"  href="http://api.movim.eu/accounts/register">Create an account</a> and connect to one of our public platforms.
+                </h3>
+
+                <div class="flex gray">
                     <div class="block">
-                        <i class="zmdi zmdi-flag"></i>
-                        <p>
-                            Movim is already translated in more than <b>20 languages</b>!<br />
-                            Want to help us?
-                            <br />
-                            <a target="_blank" href="https://www.transifex.com/projects/p/movim/">Translate Movim</a>
-                        </p>
-                    </div>
-                    <div class="block">
-                        <i class="zmdi zmdi-lock"></i>
-                        <p>
-                            You want to stay <b>anonymous</b>?<br />
-                            You don't have to provide any personal information to join.
-                            <br />
-                        </p>
+                        <i class="zmdi zmdi-storage"></i>
+                        <h2><a target="_blank" href="https://nl.movim.eu/">nl.movim.eu</a></h2>
+                        <p>The Netherlands</p>
                     </div>
                     <div class="block">
                         <i class="zmdi zmdi-storage"></i>
-                        <p>
-                            If you want to setup your <b>own server</b>.<br />
-                            We provide everything to help you<br /> launch your own Movim pod.<br />
-                            <a target="_blank" href="https://github.com/movim/movim/wiki/Install-Movim">Install your Movim Server</a>
-                        </p>
+                        <h2><a target="_blank" href="https://fr.movim.eu/">fr.movim.eu</a></h2>
+                        <p>France</p>
+                    </div>
+                    <div class="block">
+                        <i class="zmdi zmdi-storage"></i>
+                        <h2><a target="_blank" href="https://de.movim.eu/">de.movim.eu</a></h2>
+                        <p>Germany</p>
+                    </div>
+                    <div class="block">
+                        <i class="zmdi zmdi-storage"></i>
+                        <h2><a target="_blank" href="https://movim.se/">movim.se</a></h2>
+                        <p>Sweden</p>
+                    </div>
+                    <div class="block">
+                        <i class="zmdi zmdi-storage"></i>
+                        <h2><a target="_blank" href="https://movim.feder8.ru/">movim.feder8.ru</a></h2>
+                        <p>Russia</p>
+                    </div>
+                    <div class="block">
+                        <i class="zmdi zmdi-storage"></i>
+                        <h2><a target="_blank" href="https://jp.mov.im/">jp.mov.im</a></h2>
+                        <p>Japan</p>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer>
-            <section>
-                <div class="flex">
+            </div>
+        </section>
+        <section class="dark">
+            <div class="inner">
+                <h1>Help Us</h1>
+                <br />
+                <div class="flex gray">
                     <div class="block">
-                        <h2>Help Us</h2>
+                        <i class="zmdi zmdi-drink"></i>
                         <p>One time donation</p>
                         <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8QHPJDAQXT9UC">
                             <img style="width: 12rem;" src="img/paypal.png"/>
                         </a>
+                    </div>
+                    <div class="block">
+                        <i class="zmdi zmdi-calendar-alt"></i>
                         <p>Help us monthly</p>
                         <a target="_blank" href="http://patreon.com/movim">
                             <img style="width: 12rem;" src="img/patreon.png"/>
                         </a>
-                        <p>Or support us</p>
+                    </div>
+                    <div class="block">
+                        <i class="zmdi zmdi-money"></i>
+                        <p>Or support us on</p>
                         <a class="simple" href="https://www.bountysource.com/teams/movim/issues?utm_source=Movim&amp;utm_medium=shield&amp;utm_campaign=bounties_received">
                             <img src="https://www.bountysource.com/badge/team?team_id=69601&amp;style=bounties_received">
                         </a>
+                        <br />
                         <a class="simple" href="https://flattr.com/submit/auto?user_id=movim&amp;url=https%3A%2F%2Fmovim.eu%2F" target="_blank">
                             <img src="img/flattr.png" alt="Flattr this" title="Flattr this">
                         </a>
                     </div>
-                    <div class="block">
-                        <h2>The Team</h2>
-                        <img class="rounded" src="img/nous.jpg">
-                        <img class="rounded" src="img/src386.jpeg">
-                        <p>
-                            <a class="simple" href="http://edhelas.movim.eu/">Timothée Jaussoin</a><br />
-                            <a class="simple" href="https://github.com/christine-ho-dev">Christine Ho</a><br />
-                            <a class="simple" href="https://github.com/src386">src386</a>
-                        </p>
-                        <p>
-                            <a class="simple" href="xmpp:movim@conference.movim.eu?join">Chatroom: movim@conference.movim.eu</a><br />
-                        </p>
-                    </div>
-                    <div class="block">
-                        <h2>Partners</h2>
-                        <p style="text-align: left; padding-left: 3rem;">
-                            <!--<a class="simple" href="http://www.pmbservices.fr/" target="_blank">
-                                <img class="rounded" src="https://img.movim.eu/logo_pmb_clean.png" style="background-color: white; padding: 0.5rem 1rem; width: 5rem;">-->
-                            </a><a class="simple" href="http://chatme.im/" alt="Chat Gratuita ChatMe" title="Chat Gratuita ChatMe" target="_blank">
-                                <img class="rounded" src="img/chatme.png" alt="Chat Gratuita ChatMe" title="Chat Gratuita ChatMe" style="background-color: white; padding: 0.5rem 1rem; width: 5rem;"> ChatMe.im
-                            </a>
-                            <a class="simple" href="http://opusvl.com/" alt="OpusVL" title="OpusVL - Business management software and professional Open Source solutions" target="_blank">
-                                <img class="rounded" src="img/opusvl.png" alt="Chat Gratuita ChatMe" title="Chat Gratuita ChatMe" style="background-color: white; padding: 0.5rem 1rem; width: 5rem;"> OpusVL
-                            </a>
-                        </p>
-                    </div>
                 </div>
-            </section>
-        </footer>
+                <p style="text-align: center;">Copyright 2008 - 2018 <a href="https://edhelas.movim.eu/">Timothée Jaussoin</a></p>
+            </div>
+        </section>
     </body>
 </html>
