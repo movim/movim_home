@@ -205,6 +205,10 @@ div.half {
     display: block;
 }
 
+.mobile div.screen img {
+    border-radius: 0.1rem;
+}
+
 .desktop .buttons:before,
 .desktop .buttons:after {
     content: '';
@@ -224,7 +228,7 @@ div.half {
 .desktop.dark .buttons:before,
 .desktop.dark .buttons:after {
     border: 0;
-    background: black;
+    background: #111;
 }
 
 .mobile.dark div.screen {
