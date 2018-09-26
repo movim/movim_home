@@ -251,6 +251,7 @@ div.half {
 }
 
 @media screen and (max-width: 600px) {
+    .on_desktop,
     .mobile,
     .desktop {
         display: none;
