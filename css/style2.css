@@ -119,6 +119,10 @@ p {
     color: #333;
 }
 
+b {
+    font-weight: bold;
+}
+
 .dark h1,
 .dark h2,
 .dark h3,
