@@ -24,6 +24,15 @@ body {
     overflow-x: hidden;
 }
 
+pre {
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    padding: 0 0.5rem;
+    line-height: 2rem;
+    font-family: monospace;
+}
+
 section.dark {
     background-color: #343f44;
 }
