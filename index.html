@@ -78,12 +78,14 @@
                 <div class="desktop" style="top: -5rem; left: calc(50% + 4rem);">
                     <div class="buttons"></div>
                     <div class="screen">
-                        <img src="img/community.png">
+                        <img src="img/home.png">
                     </div>
                 </div>
                 <div class="mobile dark" style="top: 7rem; left: calc(53%); transform: scale(1.2);">
-                    <div class="screen">
+                    <div class="screen carousel">
                         <img src="img/chat2.png">
+                        <img src="img/draw.png">
+                        <img src="img/xkcd.png">
                     </div>
                 </div>
                 <div class="half">
@@ -100,10 +102,20 @@
         </section>
         <section class="dark" style="background: radial-gradient(circle farthest-corner at right bottom,#003441 0,#1a465d 100%);">
             <div class="inner">
-                <iframe class="cover hover2" src="https://www.youtube.com/embed/vMl5peDiBIY" allowfullscreen="" width="50%" height="350px" frameborder="0" style="float: right; margin-top: 1rem;"></iframe>
-                <div class="half">
+                <div class="mobile dark" style="top: -1rem; left: 14rem; transform: rotate(6deg) scale(1.1)">
+                    <div class="screen">
+                        <img src="img/xkcd.png">
+                    </div>
+                </div>
+                <div class="mobile dark" style="top: -1rem; left: calc(4rem); transform: rotate(-5deg) scale(1.2)">
+                    <div class="screen">
+                        <img src="img/communities.png">
+                    </div>
+                </div>
+                <!--<iframe class="cover hover2" src="https://www.youtube.com/embed/vMl5peDiBIY" allowfullscreen="" width="50%" height="350px" frameborder="0" style="float: right; margin-top: 1rem;"></iframe>-->
+                <div class="half right">
                     <h1>News & Communities</h1>
-                    <h3>Share, format and publish… in real time</h3>
+                    <h3>Share, format and publish… <br />in real time</h3>
                     <p>Movim simplifies the management of your news and your publications. So forget the ads, forget the superfluous. We designed an interface that really focuses on your content.</p>
 
                     <p>In Communities you can publish and subscribe to various nodes on different topics.
@@ -156,20 +168,22 @@
                             <img src="img/stickers_desktop.png">
                         </div>
                     </div>
-                    <div class="desktop" style="top: 12rem; left: 58%;">
+                    <div class="desktop dark" style="top: 12rem; left: 58%;">
                         <div class="buttons"></div>
                         <div class="screen">
                             <img src="img/chatroom.png">
                         </div>
                     </div>
                     <div class="mobile dark" style="top: 18rem; transform: scale(1.2); left: calc(50% - 115px);">
-                        <div class="screen">
-                            <img src="img/chats.png">
+                        <div class="screen carousel">
+                            <img src="img/chat.png">
+                            <img src="img/chat3.png">
+                            <img src="img/share.png">
                         </div>
                     </div>
                 </div>
 
-                <h3>Start a conversation with a friend or join a multi-user chatroom in one click.<br />
+                <h3 style="padding-bottom: 0;">Start a conversation with a friend or join a multi-user chatroom in one click.<br />
                 Movim chats are coming with many features to give you the best chat experience accross all your devices.</h3>
 
                 <div class="half">
@@ -180,7 +194,7 @@
                     </div>
                     <div class="mobile" style="top: 1rem; left: 145%; transform: scale(1.2)">
                         <div class="screen">
-                            <img src="img/share.png">
+                            <img src="img/emojis.png">
                         </div>
                     </div>
                     <div class="flex one blue" style="margin-top: 8rem;">
@@ -212,7 +226,7 @@
                         <div class="block">
                             <i class="zmdi zmdi-mood"></i>
                             <p>
-                                Send funny stickers<br/> to your friends in one click!
+                                Send funny stickers or emojis<br/> to your friends in one click!
                             </p>
                         </div>
                         <div class="block">
@@ -238,6 +252,12 @@
                             </p>
                         </div>
                         <div class="block">
+                            <i class="zmdi zmdi-gesture"></i>
+                            <p>
+                                Send nice drawing or personnalize<br/> your pictures before saring them.
+                            </p>
+                        </div>
+                        <div class="block">
                             <i class="zmdi zmdi-edit"></i>
                             <p>
                                 Oops, you made a mistake?<br/> Correct your previous message easily.
@@ -252,15 +272,15 @@
                         <div class="block">
                             <i class="zmdi zmdi-camera"></i>
                             <p>
-                                Call your contacts<br/> in one-to-one sessions (desktop only)
+                                Call your contacts<br/> in one-to-one sessions (desktop only).
                             </p>
                         </div>
-                        <div class="block">
+                        <!--<div class="block">
                             <i class="zmdi zmdi-check"></i>
                             <p>
                                 Nothing to install, the video-conference features relies on web standards
                             </p>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -273,11 +293,11 @@
                 <div class="flex green">
                     <div class="block">
                         <i class="zmdi zmdi-search"></i>
-                        <p>Find posts and contacts <b>instantly</b> with our global search feature.</p>
+                        <p>Find posts, Communities, tags and contacts <b>instantly</b> with our global search feature.</p>
                     </div>
                     <div class="block">
                         <i class="zmdi zmdi-notifications-active"></i>
-                        <p>Be <b>notified</b> about likes and comments.</p>
+                        <p>Be <b>notified</b> about likes, mentions and comments.</p>
                     </div>
                     <div class="block">
                         <i class="zmdi zmdi-sign-in"></i>
