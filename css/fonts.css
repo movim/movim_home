@@ -1,13 +1,13 @@
 @import url('MaterialIcons/font.css');
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
   src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/os_300.woff2) format('woff2'), url(../fonts/os_300.woff2) format('woff');
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url(../fonts/os_400.woff2) format('woff2'), url(../fonts/os_400.woff) format('woff');
