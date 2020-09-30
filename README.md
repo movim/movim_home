@@ -1,2 +1,2 @@
 # movim_home
-The official Movim website
+House of Ruth
