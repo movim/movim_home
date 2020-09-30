@@ -1,2 +1,2 @@
 # movim_home
-The official Movim website
+The Amazing official Movim website
