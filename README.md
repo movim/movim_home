@@ -4,15 +4,15 @@ The official Movim website
 What is Movim?
 Movim is a social platform, which is -
 
-1) Decentralized
+1) Decentralized : 
 Movim is based on a fully decentralized and standard network. You can create your own account on
 the server of your choice.
 
-2) Open-Source
+2) Open-Source : 
 Movim's source code is completely open allowing anyone to study how it works to improve it,
 share it, and redistribute it freely.
 
-3) Multi-platform
+3) Multi-platform : 
 Movim also fully adapts to all your devices from your smartphone to your desktop computer.
 
 
