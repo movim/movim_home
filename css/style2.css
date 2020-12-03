@@ -24,6 +24,32 @@ body {
     overflow-x: hidden;
 }
 
+.centered {
+    text-align: center;
+}
+
+a.button {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+
+a.button.main {
+    background-color:rgba(255, 255, 255, 0.4);
+}
+
+a.button i {
+    display: inline;
+    margin-right: 0.75rem;
+    line-height: 2rem;
+    margin-left: -0.5rem;
+}
+
 pre {
     font-size: 1rem;
     background-color: #333;
@@ -35,6 +61,10 @@ pre {
 
 section.dark {
     background-color: #343f44;
+}
+
+section.purple {
+    background: radial-gradient(circle farthest-corner at right bottom,#3F51B5 0,#222e75 100%);
 }
 
 section.gray {
@@ -50,6 +80,20 @@ header, section {
 header {
     background: radial-gradient(circle farthest-corner at right bottom,#3F51B5 0,#222e75 100%);
     margin-top: -3rem;
+    position: relative;
+}
+
+header:before {
+    content: "";
+    background-image: url('../img/network.svg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    pointer-events: none;
 }
 
 nav, div.inner {
