@@ -59,12 +59,16 @@ pre {
     font-family: monospace;
 }
 
+section.green {
+    background: radial-gradient(circle farthest-corner at right bottom, rgb(65, 63, 181) 0, rgb(25, 185, 97) 100%);
+}
+
 section.dark {
-    background-color: #343f44;
+    background-color: #111;
 }
 
 section.purple {
-    background: radial-gradient(circle farthest-corner at right bottom,#3F51B5 0,#222e75 100%);
+    background: radial-gradient(circle farthest-corner at right bottom, #6f2ba7 0, rgb(65, 63, 181) 100%);
 }
 
 section.gray {
@@ -78,15 +82,15 @@ header, section {
 }
 
 header {
-    background: radial-gradient(circle farthest-corner at right bottom,#3F51B5 0,#222e75 100%);
+    background-image: url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 87, 34) 0, rgb(65, 63, 181) 90%), url('../img/network.svg');
+    background-size: cover;
     margin-top: -3rem;
     position: relative;
 }
 
 header:before {
     content: "";
-    background-image: url('../img/network.svg');
-    background-size: cover;
+    /*background-image: ;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -184,7 +188,11 @@ b {
 .dark h1,
 .dark h2,
 .dark h3,
-.dark p {
+.dark p,
+.green h1,
+.green h2,
+.green h3,
+.green p {
     color: white;
 }
 
@@ -369,7 +377,8 @@ div.half.right {
 }
 
 .flex .block i {
-    color: #98c22e;
+    color: white;
+    opacity: 0.7;
     line-height: 4.25rem;
     font-size: 2rem;
     position:absolute;
@@ -379,7 +388,7 @@ div.half.right {
 }
 
 .flex.blue .block i {
-    color: #003441;
+    color: #333;
 }
 
 .flex.gray .block i {
