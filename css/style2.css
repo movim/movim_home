@@ -208,7 +208,8 @@ div.half.right {
 /* Devices inspired by https://ghost.org/fr/features/ */
 
 .mobile,
-.desktop {
+.desktop,
+.drawing {
     position: absolute;
 }
 
