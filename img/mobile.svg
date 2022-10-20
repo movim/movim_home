@@ -5,8 +5,8 @@
    version="1.1"
    id="svg15020"
    width="767.51471"
-   height="701.81177"
-   viewBox="0 0 767.51471 701.81179"
+   height="501.81177"
+   viewBox="0 0 767.51471 501.81179"
    sodipodi:docname="mobile.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -310,9 +310,9 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="false"
      showgrid="false"
-     inkscape:zoom="1.1596551"
-     inkscape:cx="338.4627"
-     inkscape:cy="223.34226"
+     inkscape:zoom="0.57982755"
+     inkscape:cx="83.64556"
+     inkscape:cy="162.11717"
      inkscape:window-width="1920"
      inkscape:window-height="1025"
      inkscape:window-x="0"
@@ -341,7 +341,7 @@
        width="814.08002"
        height="1122.5601"
        preserveAspectRatio="none"
-       xlink:href="mobile.png"
+       xlink:href="file:///home/edhelas/Documents/Movim/drawings/mobile.png"
        id="image15028" />
   </g>
   <g
@@ -547,7 +547,7 @@
                id="rect53127"
                style="fill:#ffffff" />
             <polygon
-               points="15,14 15,12 12,12 7,12 7,14 "
+               points="12,12 7,12 7,14 15,14 15,12 "
                id="polygon53129"
                style="fill:#ffffff" />
             <rect

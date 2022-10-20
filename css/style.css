@@ -16,102 +16,8 @@ a:link:hover, a:visited:hover {
     text-decoration: underline;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    font-size: 8px;
-    font-weight: 300;
-    overflow-x: hidden;
-}
-
-.centered {
-    text-align: center;
-}
-
-a.button {
-    color: white;
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    font-size: 1.5rem;
-    padding: 0.5rem 2rem;
-    display: inline-block;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-}
-
-a.button.main {
-    background-color:rgba(255, 255, 255, 0.4);
-}
-
-a.button i {
-    display: inline;
-    margin-right: 0.75rem;
-    line-height: 2rem;
-    margin-left: -0.5rem;
-}
-
-pre {
-    font-size: 1rem;
-    background-color: #333;
-    color: white;
-    padding: 0 0.5rem;
-    line-height: 2rem;
-    font-family: monospace;
-}
-
-section.green {
-    background: radial-gradient(circle farthest-corner at right bottom, rgb(65, 63, 181) 0, rgb(25, 185, 97) 100%);
-}
-
-section.dark {
-    background-color: #111;
-}
-
-section.purple {
-    background: radial-gradient(circle farthest-corner at right bottom, #6f2ba7 0, rgb(65, 63, 181) 100%);
-}
-
-section.gray {
-    border-top: 1px solid #e5eff5;
-    border-bottom: 1px solid #e5eff5;
-    background: #f8fafc;
-}
-
-header, section {
-    padding: 3rem 4vw;
-}
-
-header {
-    background-image: url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 87, 34) 0, rgb(65, 63, 181) 90%), url('../img/network.svg');
-    background-size: cover;
-    margin-top: -3rem;
-    position: relative;
-}
-
-header:before {
-    content: "";
-    /*background-image: ;*/
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.05;
-    pointer-events: none;
-}
-
-nav, div.inner {
-    margin: 0 auto;
-    max-width: 1030px;
-    width: 100%;
-}
-
-div.inner {
-    position: relative;
-}
-
-header div.inner {
-    margin: 6rem auto;
+nav {
+    padding-bottom: 6rem;
 }
 
 nav ul li {
@@ -120,10 +26,6 @@ nav ul li {
     line-height: 3rem;
     padding: 0 1rem;
     font-size: 1.35rem;
-}
-
-nav {
-    margin: 2rem auto;
 }
 
 nav ul li.oppose {
@@ -144,6 +46,57 @@ nav img {
     height: 3rem;
     margin-bottom: -0.75rem;
     margin-right: 0.5rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 8px;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 87, 34) 0, rgb(65, 63, 181) 90%), url('../img/network.svg');
+    background-size: cover;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    padding: 3rem;
+    margin-top: 6rem;
+}
+
+.colored {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.colored.gray {
+    border-top: 1px solid #e5eff5;
+    border-bottom: 1px solid #e5eff5;
+    background: #f8fafc;
+}
+
+.colored.green {
+    background: radial-gradient(circle farthest-corner at right bottom, rgb(65, 63, 181) 0, rgb(25, 185, 97) 100%);
+}
+
+.colored.purple {
+    background: radial-gradient(circle farthest-corner at right bottom, #6f2ba7 0, rgb(65, 63, 181) 100%);
+}
+
+a.button i,
+.dark .flex div > i,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p {
+    color: white;
 }
 
 h1, h3, h4 {
@@ -185,33 +138,93 @@ b {
     font-weight: bold;
 }
 
-.dark h1,
-.dark h2,
-.dark h3,
-.dark p,
-.green h1,
-.green h2,
-.green h3,
-.green p {
-    color: white;
+.text-center {
+    text-align: center;
 }
 
-div.half {
-    width: 45%;
+.flex {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    margin: 0 auto;
+    max-width: 1030px;
+}
+
+.flex.third {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.flex.full {
+    grid-template-columns: 100%;
+}
+
+.flex > div {
+    padding: 0 1rem;
     position: relative;
 }
 
-div.half.right {
-    margin-left: 50%;
+.flex > div.centered {
+    display: flex;
+    align-items: center;
+}
+
+.flex > div.centered content div {
+    max-width: 30rem;
+}
+
+.flex div > i {
+    color: #333;
+    opacity: 0.7;
+    line-height: 4.25rem;
+    font-size: 2rem;
+    position:absolute;
+    padding: 0 0.5rem;
+    width: 2rem;
+    text-align: center;
+}
+
+.flex div > i ~ h2,
+.flex div > i ~ p,
+.flex div > i ~ a {
+    padding-left: 4rem;
+}
+
+.flex div > i ~ p {
+    font-size: 1.15rem;
+}
+
+.flex div > i ~ h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .flex {
+        grid-template-columns: 100%;
+    }
+
+    .flex.third {
+        grid-template-columns: 50% 50%;
+    }
+
+    .on_desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .flex.third {
+        grid-template-columns: 100%;
+    }
 }
 
 /* Devices inspired by https://ghost.org/fr/features/ */
 
-.mobile,
+/*.mobile,
 .desktop,
 .drawing {
-    position: absolute;
-}
+    position: relative;
+}*/
 
 .mobile {
     display: flex;
@@ -326,94 +339,27 @@ div.half.right {
     margin-left: 6px;
 }
 
-@media screen and (max-width: 600px) {
-    .on_desktop,
-    .mobile,
-    .desktop {
-        display: none;
-    }
-
-    div.half {
-        width: 100%;
-    }
-
-    div.half.right {
-        margin-left: 0;
-    }
-
-    iframe {
-        display: none;
-    }
-}
-
-/* blocks */
-
-.flex {
-    display: flex;
-    flex-flow: row wrap;
-    clear: both;
-}
-
-.flex .block {
-    flex: 1 25%;
-    padding-bottom: 2rem;
-    margin-right: 1rem;
-    box-sizing: border-box;
-}
-
-.flex.two .block {
-    flex: 1 50%;
-    margin-right: 0;
-}
-
-.flex.one .block {
-    flex: 1 100%;
-}
-
-@media screen and (max-width: 1024px) {
-    .flex .block,
-    .flex.two .block  {
-        flex: 1 100%;
-    }
-}
-
-.flex .block i {
+/* Button */
+a.button {
     color: white;
-    opacity: 0.7;
-    line-height: 4.25rem;
-    font-size: 2rem;
-    position:absolute;
-    padding: 0 0.5rem;
-    width: 2rem;
-    text-align: center;
-}
-
-.flex.blue .block i {
-    color: #333;
-}
-
-.flex.gray .block i {
-    color: gray;
-}
-
-.dark .flex .block i {
-    color: white;
-}
-
-.flex .block > p,
-.flex .block > a,
-.flex .block > h2 {
-    font-size: 1.15rem;
-    padding-left: 4rem;
-}
-
-.flex .block h2 {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 1.5rem;
-    padding-bottom: 0;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
 }
 
-.flex .block a  {
-    line-height: 1.8rem;
+a.button i {
+    display: inline;
+    margin-right: 0.75rem;
+    line-height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+a.button.main {
+    background-color:rgba(255, 255, 255, 0.4);
 }
 
 /* Carousel */
