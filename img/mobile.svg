@@ -8,7 +8,7 @@
    height="501.81177"
    viewBox="0 0 767.51471 501.81179"
    sodipodi:docname="mobile.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -310,25 +310,28 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="false"
      showgrid="false"
-     inkscape:zoom="0.57982755"
-     inkscape:cx="83.64556"
-     inkscape:cy="162.11717"
+     inkscape:zoom="6.5599999"
+     inkscape:cx="548.55184"
+     inkscape:cy="355.94513"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-height="1029"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g54660"
      showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="310.89394,552.61231"
        orientation="1,0"
-       id="guide52199" />
+       id="guide52199"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <g
      inkscape:groupmode="layer"
@@ -348,8 +351,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Box"
-     sodipodi:insensitive="true"
-     transform="translate(-57.122993,-81.681602)">
+     transform="translate(-57.122993,-81.681602)"
+     style="display:inline">
     <g
        id="g51696"
        transform="translate(-91.294617,-25.449677)">
@@ -501,16 +504,18 @@
     <g
        id="g54660"
        transform="translate(10.7371,-40.06999)">
-      <circle
-         style="fill:#ff5722;fill-opacity:1;stroke:none;stroke-width:2.64567;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="path44363"
-         cx="592.49231"
-         cy="486.48062"
-         r="21.213615" />
+      <rect
+         style="fill:#ff5722;stroke-width:1.364;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect5871"
+         width="42.147484"
+         height="42.147484"
+         x="572.00354"
+         y="465.86484"
+         ry="8.58148" />
       <g
          style="fill:#000000"
          id="g53153"
-         transform="translate(581.14827,474.93858)">
+         transform="matrix(0.88380553,0,0,0.88380553,583.29654,475.87559)">
         <g
            id="g53119">
           <rect

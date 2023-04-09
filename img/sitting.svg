@@ -8,7 +8,7 @@
    height="600.30835"
    viewBox="0 0 566.00824 600.30837"
    sodipodi:docname="sitting.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -338,25 +338,28 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="false"
      showgrid="false"
-     inkscape:zoom="2.32"
-     inkscape:cx="374.78448"
-     inkscape:cy="451.2931"
+     inkscape:zoom="6.5619509"
+     inkscape:cx="138.90686"
+     inkscape:cy="506.55667"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-height="1029"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="text38925-7"
+     inkscape:current-layer="layer2"
      showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="335.77586,246.42905"
        orientation="1,0"
-       id="guide9303" />
+       id="guide9303"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <g
      inkscape:groupmode="layer"
@@ -428,8 +431,7 @@
        d="m 628.44767,600.38813 h 26.78551 l -25.25194,22.64214 z"
        id="path34642-7" />
     <g
-       aria-label="Hello everyone :)
-How are you? "
+       aria-label="Hello everyone :) How are you? "
        id="text38925"
        style="font-size:14.6667px;line-height:17.3228px;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:1px">
       <path
@@ -563,8 +565,7 @@ How are you? "
        d="M 459.69601,522.40539 H 432.9105 l 25.25194,22.64214 z"
        id="path34642-6" />
     <g
-       aria-label="Yes I'm back from h
-Was super fun ! "
+       aria-label="Yes I'm back from h Was super fun ! "
        id="text38925-7"
        style="font-size:14.6667px;line-height:17.3228px;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:1px">
       <path
@@ -921,16 +922,19 @@ Was super fun ! "
     <g
        id="g71746"
        transform="translate(-185.58658,213.9397)">
-      <circle
-         style="opacity:1;fill:#ff5722;fill-opacity:1;stroke:none;stroke-width:2.64567;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="path44363"
-         cx="467.17834"
-         cy="459.36642"
-         r="21.213615" />
+      <rect
+         style="opacity:1;fill:#ff5722;fill-opacity:1;stroke-width:1.364;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect422"
+         width="42.424519"
+         height="42.424519"
+         x="-480.57867"
+         y="445.96609"
+         ry="8.58148"
+         transform="rotate(-90)" />
       <path
-         d="m 477.63938,460.86086 h -8.96659 v 8.96659 h -2.98887 v -8.96659 h -8.96659 v -2.98887 h 8.96659 v -8.96659 h 2.98887 v 8.96659 h 8.96659 z"
+         d="m 476.53988,460.70378 h -8.02416 v 8.02416 h -2.67473 v -8.02416 h -8.02416 v -2.67473 h 8.02416 v -8.02416 h 2.67473 v 8.02416 h 8.02416 z"
          id="path48870"
-         style="fill:#ffffff;stroke-width:1.49443" />
+         style="fill:#ffffff;stroke-width:1.33736" />
     </g>
   </g>
   <g
