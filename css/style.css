@@ -40,6 +40,7 @@ nav a:link, nav a:visited {
 
 nav ul li:first-child {
     font-size: 2rem;
+    vertical-align: sub;
 }
 
 nav img {
