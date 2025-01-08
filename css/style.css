@@ -226,6 +226,10 @@ b {
     .flex.third {
         grid-template-columns: 100%;
     }
+
+    #stories .phone {
+        mask-image: linear-gradient(to bottom, black, black 20%, transparent 70%, transparent);
+    }
 }
 
 /* Devices inspired by https://ghost.org/fr/features/ */
@@ -316,12 +320,6 @@ b {
     top: 5.5rem;
     width: 0.15rem;
 }
-
-/*.mobile,
-.desktop,
-.drawing {
-    position: relative;
-}*/
 
 .mobile {
     display: flex;
