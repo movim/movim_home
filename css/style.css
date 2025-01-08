@@ -7,12 +7,14 @@
     list-style-type: none;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #FF5722;
     text-decoration: none;
 }
 
-a:link:hover, a:visited:hover {
+a:link:hover,
+a:visited:hover {
     text-decoration: underline;
 }
 
@@ -33,7 +35,8 @@ nav ul li.oppose {
     font-size: 1.75rem;
 }
 
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: white;
     text-decoration: none;
 }
@@ -96,7 +99,7 @@ footer {
 }
 
 a.button i,
-.dark .flex div > i,
+.dark .flex div>i,
 .dark h1,
 .dark h2,
 .dark h3,
@@ -104,7 +107,9 @@ a.button i,
     color: white;
 }
 
-h1, h3, h4 {
+h1,
+h3,
+h4 {
     text-align: center;
 }
 
@@ -163,42 +168,42 @@ b {
     grid-template-columns: 100%;
 }
 
-.flex > div {
+.flex>div {
     padding: 0 1rem;
     position: relative;
 }
 
-.flex > div.centered {
+.flex>div.centered {
     display: flex;
     align-items: center;
 }
 
-.flex > div.centered content div {
+.flex>div.centered content div {
     max-width: 30rem;
 }
 
-.flex div > i {
+.flex div>i {
     color: #333;
     opacity: 0.7;
     line-height: 4.25rem;
     font-size: 2rem;
-    position:absolute;
+    position: absolute;
     padding: 0 0.5rem;
     width: 2rem;
     text-align: center;
 }
 
-.flex div > i ~ h2,
-.flex div > i ~ p,
-.flex div > i ~ a {
+.flex div>i~h2,
+.flex div>i~p,
+.flex div>i~a {
     padding-left: 4rem;
 }
 
-.flex div > i ~ p {
+.flex div>i~p {
     font-size: 1.15rem;
 }
 
-.flex div > i ~ h2 {
+.flex div>i~h2 {
     font-size: 1.5rem;
     padding-bottom: 0;
 }
@@ -231,7 +236,7 @@ b {
     background: #020202;
     border: 1px solid #101315;
     border-radius: 2rem;
-    box-shadow: inset 0 0 4px 2px #3f4245,inset 0 0 0 6px #131518;
+    box-shadow: inset 0 0 4px 2px #3f4245, inset 0 0 0 6px #131518;
     width: 20rem;
     position: relative;
 }
@@ -269,9 +274,9 @@ b {
     position: absolute;
     top: 1.5rem;
     left: 1.5rem;
-    background: radial-gradient(farthest-corner at 20% 20%,#46558c 0,transparent 40%),radial-gradient(farthest-corner at 80% 80%,#2f1f50 0,#16393f 20%,black 50%);
+    background: radial-gradient(farthest-corner at 20% 20%, #46558c 0, transparent 40%), radial-gradient(farthest-corner at 80% 80%, #2f1f50 0, #16393f 20%, black 50%);
     border-radius: 1rem;
-    box-shadow: 0 0 1px 1px rgba(255,255,255,.05);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, .05);
     border: 0.25rem solid black;
     box-sizing: border-box;
 }
@@ -283,7 +288,7 @@ b {
 
 .phone .screen img {
     max-width: 100%;
-    border-radius: 0 0 0.5rem 0.5rem;
+    border-radius: 0.5rem;
     overflow: hidden;
 }
 
@@ -300,6 +305,18 @@ b {
     left: calc(50% - 2.5rem);
 }
 
+.phone .screen:after {
+    display: block;
+    content: '';
+    background: #1b1721;
+    border-radius: 2px;
+    height: 7rem;
+    position: absolute;
+    right: -0.94rem;
+    top: 5.5rem;
+    width: 0.15rem;
+}
+
 /*.mobile,
 .desktop,
 .drawing {
@@ -312,9 +329,9 @@ b {
     align-items: center;
     padding: 0 8px;
     width: 210px;
-    background: radial-gradient(circle farthest-corner at right bottom,#e7ecee 0,#f5f7f8 100%);
+    background: radial-gradient(circle farthest-corner at right bottom, #e7ecee 0, #f5f7f8 100%);
     border-radius: 19px;
-    box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.5),0 0 1px rgba(0,0,0,.2),0 2px 4px rgba(0,0,0,.15);
+    box-shadow: inset 0 0 0 1px hsla(0, 0%, 100%, .5), 0 0 1px rgba(0, 0, 0, .2), 0 2px 4px rgba(0, 0, 0, .15);
 }
 
 .mobile div.screen {
@@ -323,7 +340,7 @@ b {
 
 .mobile:before,
 .mobile:after {
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 rgba(0,0,0,.05),inset 0 0 0 1px rgba(0,0,0,.01),0 1px 0 #fff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), inset 0 1px 0 rgba(0, 0, 0, .05), inset 0 0 0 1px rgba(0, 0, 0, .01), 0 1px 0 #fff;
 }
 
 .mobile:before {
@@ -331,7 +348,7 @@ b {
     content: '';
     width: 30px;
     height: 5px;
-    background: linear-gradient(180deg,#bdcad1 0,#dee5e8);
+    background: linear-gradient(180deg, #bdcad1 0, #dee5e8);
     border-radius: 5px;
     margin: 1.2rem;
 }
@@ -342,7 +359,7 @@ b {
     margin: 7px 0 9px;
     width: 25px;
     height: 25px;
-    background: linear-gradient(180deg,#e1e7ea 0,#f9fafb);
+    background: linear-gradient(180deg, #e1e7ea 0, #f9fafb);
     border-radius: 100%;
 }
 
@@ -350,7 +367,7 @@ b {
     width: 900px;
     background: #fff;
     border-radius: 4px;
-    box-shadow: 0 0 1px rgba(0,0,0,.35),0 2px 4px rgba(0,0,0,.15);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .35), 0 2px 4px rgba(0, 0, 0, .15);
     overflow: hidden;
 }
 
@@ -361,13 +378,13 @@ b {
     padding: 0 8px;
     height: 24px;
     background: #f5f7f8;
-    box-shadow: inset 0 -1px 0 #e7e8ea,inset 0 1px 0 hsla(0,0%,100%,.26);
+    box-shadow: inset 0 -1px 0 #e7e8ea, inset 0 1px 0 hsla(0, 0%, 100%, .26);
 }
 
 .mobile.dark,
 .desktop.dark:before {
     background: #1e1f20;
-    box-shadow: inset 0 1px 0 hsla(0,0%,100%,.3);
+    box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .3);
 }
 
 .desktop .buttons {
@@ -390,7 +407,7 @@ b {
     width: 8px;
     height: 8px;
     border: 1px solid #d1dfe6;
-    background: rgba(0,0,0,.03);
+    background: rgba(0, 0, 0, .03);
     border-radius: 6px;
     display: inline-block;
     position: relative;
@@ -412,7 +429,7 @@ b {
 
 .mobile.dark:before,
 .mobile.dark:after {
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 rgba(0,0,0,.05),inset 0 0 0 1px rgba(0,0,0,.01),0 1px 0 #303030;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), inset 0 1px 0 rgba(0, 0, 0, .05), inset 0 0 0 1px rgba(0, 0, 0, .01), 0 1px 0 #303030;
 }
 
 .desktop .buttons:after {
@@ -436,10 +453,10 @@ a.button i {
     margin-right: 0.75rem;
     line-height: 2rem;
     margin-left: -0.5rem;
-  }
+}
 
 a.button.main {
-    background-color:rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* Carousel */
@@ -447,7 +464,7 @@ a.button.main {
     position: relative;
 }
 
-.carousel > * {
+.carousel>* {
     display: inline-block;
     position: absolute;
     top: 0;
@@ -455,29 +472,51 @@ a.button.main {
     opacity: 0;
 }
 
-.carousel > *:nth-child(1) {
+.carousel>*:nth-child(1) {
     position: relative;
     opacity: 1;
 }
 
 .carousel>*:nth-child(2) {
-    animation:fade2 10s infinite;
+    animation: fade2 10s infinite;
 }
 
 @keyframes fade2 {
-    30% {opacity:0}
-    36% {opacity:1}
-    70% {opacity:1}
-    71% {opacity:0}
+    30% {
+        opacity: 0
+    }
+
+    36% {
+        opacity: 1
+    }
+
+    70% {
+        opacity: 1
+    }
+
+    71% {
+        opacity: 0
+    }
 }
 
 .carousel>*:nth-child(3) {
-    animation:fade3 10s infinite;
+    animation: fade3 10s infinite;
 }
 
 @keyframes fade3 {
-    63% {opacity:0}
-    69% {opacity:1}
-    97% {opacity:1}
-    100%{opacity:0}
+    63% {
+        opacity: 0
+    }
+
+    69% {
+        opacity: 1
+    }
+
+    97% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
 }
