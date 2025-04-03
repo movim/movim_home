@@ -61,7 +61,7 @@ body {
 }
 
 header {
-    background-image: url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 87, 34) 0, rgb(65, 63, 181) 90%), url('../img/network.svg');
+    background-image: url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 61, 0) 0, rgb(61, 58, 244) 90%), url('../img/network.svg');
     background-size: cover;
     position: relative;
     padding-top: 2rem;
@@ -92,6 +92,10 @@ footer {
 
 .colored.pink {
     background: radial-gradient(circle farthest-corner at right bottom, rgb(80, 25, 176) 0, rgb(235, 52, 198) 100%);
+}
+
+.colored.forest {
+    background: radial-gradient(circle farthest-corner at right bottom, rgb(92, 175, 28) 0, rgb(11, 53, 19) 100%);
 }
 
 .colored.purple {
@@ -381,7 +385,7 @@ b {
 
 .mobile.dark,
 .desktop.dark:before {
-    background: #1e1f20;
+    background: #141a21;
     box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .3);
 }
 
