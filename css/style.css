@@ -52,12 +52,17 @@ nav img {
     margin-right: 0.5rem;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     font-size: 8px;
     font-weight: 300;
     overflow-x: hidden;
+    position:relative;
 }
 
 header {
