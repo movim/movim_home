@@ -163,7 +163,7 @@ h4 {
 
 h2 {
     font-size: 1.7rem;
-    line-height: 2.2rem;
+    line-height: 2rem;
     font-weight: 400;
     padding: 1rem 0;
     color: #333;
@@ -212,6 +212,8 @@ b {
 
 .flex>div.centered content div {
     max-width: 30rem;
+    display: flex;
+    align-items: center;
 }
 
 .flex div>i {
@@ -494,12 +496,11 @@ a.button:hover {
 }
 
 a.button.main {
-    background-color: rgba(64, 60, 179, 0.9);
-    border: 1px solid rgba(110, 110, 220, 0.3);
+    background-color: rgba(58, 45, 208, 0.4);
 }
 
 a.button.main:hover {
-    background-color: rgba(64, 60, 179, 1);
+    background-color: rgba(58, 45, 208, 0.6);
 }
 
 /* Carousel */
