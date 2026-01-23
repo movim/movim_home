@@ -19,7 +19,7 @@ a:visited:hover {
 }
 
 nav {
-    padding-bottom: 6rem;
+    padding-bottom: 12rem;
 }
 
 nav ul li {
@@ -80,11 +80,12 @@ body {
 }
 
 header {
-    background-image: url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 61, 0) 0, rgb(61, 58, 244) 90%), url('../img/network.svg');
+    background-image: linear-gradient(rgba(40, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.15) 40%, transparent 90%), url('../img/smash.jpg')/*, url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 61, 0) 0, rgb(61, 58, 244) 90%), url('../img/network.svg')*/;
     background-size: cover;
+    background-position: center;
     position: relative;
     padding-top: 2rem;
-    padding-bottom: 13rem;
+    padding-bottom: 15rem;
     margin-bottom: -3rem;
     mask: linear-gradient(black 60%, rgba(0, 0, 0, 0.75) 75%, transparent);
 }
@@ -147,6 +148,14 @@ h1 {
 
 h1.main {
     font-size: 3.5rem;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2), 0px 7px 10px rgba(0, 0, 0, 0.14), 0px 2px 16px rgba(0, 0, 0, 0.12);
+}
+
+h3.main {
+    opacity: 1;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 2px 10px rgba(0, 0, 0, 0.14), 0px 1px 16px rgba(0, 0, 0, 0.12);
+    font-weight: bold;
+    padding-bottom: 4rem;
 }
 
 h3 {
@@ -470,8 +479,8 @@ b {
 /* Button */
 a.button {
     color: white;
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 87, 34, 0.7);
+    border: 1px solid rgba(255, 87, 34, 0.6);
     font-size: 1.75rem;
     padding: 1.25rem 2.75rem;
     display: inline-block;
@@ -494,16 +503,17 @@ a.button i {
 
 a.button:hover {
     box-shadow: var(--elevation-3);
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 87, 34, 0.4);
     text-decoration: none;
 }
 
 a.button.main {
-    background-color: rgba(58, 45, 208, 0.6);
+    background-color: rgba(58, 45, 208, 0.9);
+    border: 1px solid rgba(58, 45, 208, 0.8);
 }
 
 a.button.main:hover {
-    background-color: rgba(58, 45, 208, 0.7);
+    background-color: rgba(58, 45, 208, 0.8);
 }
 
 /* Carousel */
