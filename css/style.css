@@ -80,7 +80,9 @@ body {
 }
 
 header {
-    background-image: linear-gradient(rgba(40, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.15) 40%, transparent 90%), url('../img/smash.jpg')/*, url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 61, 0) 0, rgb(61, 58, 244) 90%), url('../img/network.svg')*/;
+    background-image: linear-gradient(rgba(40, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.15) 40%, transparent 90%), url('../img/smash.jpg')
+        /*, url('../img/network.svg'), radial-gradient(circle farthest-corner at right bottom, rgb(255, 61, 0) 0, rgb(61, 58, 244) 90%), url('../img/network.svg')*/
+    ;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -93,7 +95,6 @@ header {
 footer {
     background-color: #333;
     padding: 3rem;
-    margin-top: 6rem;
 }
 
 .colored {
@@ -109,6 +110,10 @@ footer {
 
 .colored.green {
     background: radial-gradient(circle farthest-corner at right bottom, rgb(65, 63, 181) 0, rgb(25, 185, 97) 100%);
+}
+
+.colored.blue {
+    background: radial-gradient(circle farthest-corner at right bottom, rgb(65, 63, 181) 0, rgb(25, 142, 185) 100%);
 }
 
 .colored.pink {
@@ -576,4 +581,69 @@ a.button.main:hover {
     100% {
         opacity: 0
     }
+}
+
+.emoji {
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 .emoji {
+    height: 3rem;
+}
+
+/* Progress bar */
+
+.progress-bar {
+    display: block;
+    border: 2px solid #666;
+    border-radius: 4rem;
+    position: relative;
+    margin-top: 2rem;
+    background-color: white;
+}
+
+.progress-bar::after {
+    display: block;
+    content: attr(data-year-goal);
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.progress-bar .progress-bar-fill {
+    height: 2rem;
+    display: block;
+    background-color: #FF5722;
+    margin: 0.25rem;
+    border-radius: 4rem;
+    margin-left: -0.75rem;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.flex > div.status-goals {
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 1rem;
+    padding: 0;
+}
+
+.status-goals span.cost {
+    position: absolute;
+    top: -2rem;
+    font-size: 1.25rem;
+    right: -0.25rem;
+}
+
+.status-goals .goal {
+    font-size: 1.1rem;
+    text-align: right;
+    padding-right: 0.5rem;
+    border-right: 2px solid #666;
+    position: relative;
 }
