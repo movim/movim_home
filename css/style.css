@@ -100,6 +100,9 @@ footer {
 .colored {
     padding-top: 4rem;
     padding-bottom: 6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
 }
 
 .colored.gray {
@@ -226,6 +229,11 @@ b {
 .flex>div.centered {
     display: flex;
     align-items: center;
+}
+
+.flex>div.centered content {
+    max-width: 32rem;
+    margin: 0 auto;
 }
 
 .flex>div.centered content div {
@@ -626,7 +634,7 @@ h1 .emoji {
     line-height: 2rem;
 }
 
-.flex > div.status-goals {
+.flex>div.status-goals {
     display: flex;
     margin-top: 2.5rem;
     gap: 1rem;
@@ -646,4 +654,40 @@ h1 .emoji {
     padding-right: 0.5rem;
     border-right: 2px solid #666;
     position: relative;
+}
+
+.float {
+    animation: float 6s ease-in-out infinite;
+}
+
+.float-small {
+    animation: float-small 12s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-10px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@keyframes float-small {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-5px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
 }
